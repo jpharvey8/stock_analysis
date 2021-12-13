@@ -12,7 +12,7 @@ The two excel worksheets that I analysed, "2017" and 2018", included information
 Copied below is the final edit of the refactored code. Each line has a descriptor of the task that is being performed below it:
 
 ### Refactored Code 
-'''
+```
 Sub AllStocksAnalysisRefactored()
 Dim startTime As Single
 Dim endTime As Single
@@ -103,7 +103,7 @@ Next i
 endTime = Timer
 MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 End Sub
-'''
+```
 
 ### Output 
 **2017** 
